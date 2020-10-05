@@ -1198,7 +1198,7 @@
     <dependency>
       <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.10.5</version>
+      <version>1.10.9</version>
     </dependency>
     <dependency>
       <groupId>com.google.gwt</groupId>
@@ -1534,7 +1534,7 @@
               <alias>jetty</alias>
               <dname>cn=127.0.0.1, ou=None, L=None, ST=None, o=None, c=SE</dname>
               <sigalg>SHA256withRSA</sigalg>
-              <ext></ext>
+              <ext/>
               <validity>365</validity>
               <keyalg>RSA</keyalg>
               <keysize>4096</keysize>

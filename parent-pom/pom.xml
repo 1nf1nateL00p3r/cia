@@ -47,7 +47,7 @@
       </roles>
     </contributor>
   </contributors>
-  <mailingLists></mailingLists>
+  <mailingLists/>
   <prerequisites>
     <maven>3.6.1</maven>
   </prerequisites>
@@ -96,10 +96,10 @@
     <sonar.libraries>target</sonar.libraries>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <sonar.jacoco.reportPath>${project.basedir}/../parent-pom/target/jacoco-ut.exec</sonar.jacoco.reportPath>
-    <sonar.dependencyCheck.htmlReportPath></sonar.dependencyCheck.htmlReportPath>
-    <sonar.dependencyCheck.reportPath></sonar.dependencyCheck.reportPath>
-    <sonar.zaproxy.htmlReportPath></sonar.zaproxy.htmlReportPath>
-    <sonar.zaproxy.reportPath></sonar.zaproxy.reportPath>
+    <sonar.dependencyCheck.htmlReportPath/>
+    <sonar.dependencyCheck.reportPath/>
+    <sonar.zaproxy.htmlReportPath/>
+    <sonar.zaproxy.reportPath/>
     <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
     <!-- <cia.project.versions.spring>5.1.6.RELEASE/5.2.0.BUILD-SNAPSHOT</cia.project.versions.spring> -->
     <cia.project.versions.spring>5.2.0.M1</cia.project.versions.spring>
@@ -165,7 +165,7 @@
     <!-- <cia.project.versions.jetty>9.4.15.v20190215</cia.project.versions.jetty>
 	<cia.project.versions.servlet.api>4.0.0</cia.project.versions.servlet.api> -->
     <cia.project.versions.javamelody>1.77.0</cia.project.versions.javamelody>
-    <cia.project.versions.vaadin>8.8.0.beta1</cia.project.versions.vaadin>
+    <cia.project.versions.vaadin>8.13.0</cia.project.versions.vaadin>
     <cia.project.versions.vaadin.gwt.user>2.8.2</cia.project.versions.vaadin.gwt.user>
     <cia.project.versions.vaadin.cssparser>0.9.27</cia.project.versions.vaadin.cssparser>
     <cia.project.versions.ehcache.web>2.0.4</cia.project.versions.ehcache.web>
@@ -1207,7 +1207,7 @@
             </goals>
             <configuration>
               <rules>
-                <DependencyConvergence></DependencyConvergence>
+                <DependencyConvergence/>
                 <bannedDependencies>
                   <excludes>
                     <exclude>commons-logging:commons-logging</exclude>
@@ -1645,7 +1645,7 @@
                 </goals>
                 <configuration>
                   <target>
-                    <mkdir dir="${project.build.directory}/dependency"></mkdir>
+                    <mkdir dir="${project.build.directory}/dependency"/>
                   </target>
                 </configuration>
               </execution>

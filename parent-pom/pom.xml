@@ -47,7 +47,7 @@
       </roles>
     </contributor>
   </contributors>
-  <mailingLists></mailingLists>
+  <mailingLists/>
   <prerequisites>
     <maven>3.6.1</maven>
   </prerequisites>
@@ -96,17 +96,17 @@
     <sonar.libraries>target</sonar.libraries>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <sonar.jacoco.reportPath>${project.basedir}/../parent-pom/target/jacoco-ut.exec</sonar.jacoco.reportPath>
-    <sonar.dependencyCheck.htmlReportPath></sonar.dependencyCheck.htmlReportPath>
-    <sonar.dependencyCheck.reportPath></sonar.dependencyCheck.reportPath>
-    <sonar.zaproxy.htmlReportPath></sonar.zaproxy.htmlReportPath>
-    <sonar.zaproxy.reportPath></sonar.zaproxy.reportPath>
+    <sonar.dependencyCheck.htmlReportPath/>
+    <sonar.dependencyCheck.reportPath/>
+    <sonar.zaproxy.htmlReportPath/>
+    <sonar.zaproxy.reportPath/>
     <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
     <!-- <cia.project.versions.spring>5.1.6.RELEASE/5.2.0.BUILD-SNAPSHOT</cia.project.versions.spring> -->
-    <cia.project.versions.spring>5.2.0.M1</cia.project.versions.spring>
+    <cia.project.versions.spring>5.2.0.RELEASE</cia.project.versions.spring>
     <!-- <cia.project.versions.spring.security>5.1.5.RELEASE/5.2.0.BUILD-SNAPSHOT</cia.project.versions.spring.security> -->
-    <cia.project.versions.spring.security>5.2.0.M2</cia.project.versions.spring.security>
+    <cia.project.versions.spring.security>5.2.9.RELEASE</cia.project.versions.spring.security>
     <cia.project.versions.spring.data>2.2.0.M3</cia.project.versions.spring.data>
-    <cia.project.versions.aws>1.11.538</cia.project.versions.aws>
+    <cia.project.versions.aws>1.11.893</cia.project.versions.aws>
     <cia.project.versions.aspectj>1.9.3</cia.project.versions.aspectj>
     <cia.project.versions.javassist>3.25.0-GA</cia.project.versions.javassist>
     <cia.project.versions.javers>5.3.6</cia.project.versions.javers>
@@ -119,20 +119,20 @@
     <cia.project.versions.slf4j>1.8.0-beta4</cia.project.versions.slf4j>
     <cia.project.versions.logback>1.3.0-alpha4</cia.project.versions.logback>
     <cia.project.versions.ehcache.spring.annotations>1.2.0</cia.project.versions.ehcache.spring.annotations>
-    <cia.project.versions.hibernate>5.4.2.Final</cia.project.versions.hibernate>
+    <cia.project.versions.hibernate>5.4.24.Final</cia.project.versions.hibernate>
     <cia.project.versions.hibernate.search>6.0.0.Alpha4</cia.project.versions.hibernate.search>
     <cia.project.versions.hibernate.lucene>8.0.0</cia.project.versions.hibernate.lucene>
     <cia.project.versions.hibernate.jpamodelgen>5.4.2.Final</cia.project.versions.hibernate.jpamodelgen>
     <cia.project.versions.hibernate.build>5.4.2.Final</cia.project.versions.hibernate.build>
     <cia.project.versions.hibernate.tools>5.4.2.Final</cia.project.versions.hibernate.tools>
     <cia.project.versions.hibernate.jpa2>1.0.2</cia.project.versions.hibernate.jpa2>
-    <cia.project.versions.hibernate.validator>6.1.0.Alpha4</cia.project.versions.hibernate.validator>
+    <cia.project.versions.hibernate.validator>6.1.0.Final</cia.project.versions.hibernate.validator>
     <cia.project.versions.hibernate.build.validator>6.1.0.Alpha4</cia.project.versions.hibernate.build.validator>
     <cia.project.versions.bytebuddy>1.9.12</cia.project.versions.bytebuddy>
     <cia.project.versions.h2>1.4.199</cia.project.versions.h2>
-    <cia.project.versions.postgresql>42.2.5</cia.project.versions.postgresql>
+    <cia.project.versions.postgresql>42.2.13</cia.project.versions.postgresql>
     <cia.project.versions.ehcache>2.10.5</cia.project.versions.ehcache>
-    <cia.project.versions.poi>4.1.0</cia.project.versions.poi>
+    <cia.project.versions.poi>4.1.1</cia.project.versions.poi>
     <cia.project.versions.quartz>2.1.5</cia.project.versions.quartz>
     <cia.project.versions.ant>1.10.5</cia.project.versions.ant>
     <cia.project.versions.junit>4.13-beta-2</cia.project.versions.junit>
@@ -155,9 +155,9 @@
     <cia.project.versions.jaxb2.fluent.api>3.0</cia.project.versions.jaxb2.fluent.api>
     <cia.project.versions.maven>3.6.1</cia.project.versions.maven>
     <cia.project.versions.httpclient>4.5.8</cia.project.versions.httpclient>
-    <cia.project.versions.guava>27.1-jre</cia.project.versions.guava>
-    <cia.project.versions.jackson>2.9.8</cia.project.versions.jackson>
-    <cia.project.versions.netty>4.1.35.Final</cia.project.versions.netty>
+    <cia.project.versions.guava>30.0-jre</cia.project.versions.guava>
+    <cia.project.versions.jackson>2.11.4</cia.project.versions.jackson>
+    <cia.project.versions.netty>4.1.59.Final</cia.project.versions.netty>
     <cia.project.versions.xerces>2.12.0.SP02-redhat-00001</cia.project.versions.xerces>
     <cia.project.versions.xmlapis>1.4.01</cia.project.versions.xmlapis>
     <cia.project.versions.jetty>9.4.15.v20190215</cia.project.versions.jetty>
@@ -201,12 +201,12 @@
       <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.6</version>
+        <version>2.7</version>
       </dependency>
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.12</version>
+        <version>1.13</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
@@ -283,7 +283,7 @@
       <dependency>
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
-        <version>1.9.3.redhat-1</version>
+        <version>1.9.4</version>
       </dependency>
       <dependency>
         <groupId>org.jvnet.jaxb2_commons</groupId>
@@ -690,7 +690,7 @@
             <dependency>
               <groupId>commons-io</groupId>
               <artifactId>commons-io</artifactId>
-              <version>2.6</version>
+              <version>2.7</version>
             </dependency>
             <dependency>
               <groupId>org.apache.commons</groupId>
@@ -1207,7 +1207,7 @@
             </goals>
             <configuration>
               <rules>
-                <DependencyConvergence></DependencyConvergence>
+                <DependencyConvergence/>
                 <bannedDependencies>
                   <excludes>
                     <exclude>commons-logging:commons-logging</exclude>
@@ -1645,7 +1645,7 @@
                 </goals>
                 <configuration>
                   <target>
-                    <mkdir dir="${project.build.directory}/dependency"></mkdir>
+                    <mkdir dir="${project.build.directory}/dependency"/>
                   </target>
                 </configuration>
               </execution>

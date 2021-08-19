@@ -350,7 +350,7 @@
     <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.11.3</version>
+      <version>1.14.2</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -564,7 +564,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -650,7 +650,7 @@
               <goal>compile-theme</goal>
               <goal>compile</goal>
             </goals>
-            <configuration></configuration>
+            <configuration/>
           </execution>
         </executions>
         <configuration>
